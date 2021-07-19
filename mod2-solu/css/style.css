@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/*********** Base Styling **********/
+body {
+  font-family: Arial, Rounded MT Bold, sans-sans-serif;
+  font-size: 100%;
+  width: 100%;
+
+}
+header nav {
+text-align: center;
+}
+.main-div {
+  width:100%;
+  float: left;
+  margin-top: 15px;
+  background-color: white;
+  position: relative;
+  padding: 15px;
+  /*border: 2px solid cyan;*/
+  text-align: center;
+  box-sizing: border-box;
+}
+.div1 {
+  width: 32%;
+  border: 1px solid black;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  background-color: grey;
+  position: relative;
+  height: 200px;
+  box-sizing: border-box;
+
+}
+.div1 > p {
+  float: right;
+  position: relative;
+  /*clear: left; */
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid black;
+  font-size: 2em;
+
+
+}
+.div2 {
+  width: 32%;
+  border: 2px solid black;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  background-color: grey;
+  position: relative;
+  height: 200px;
+  box-sizing: border-box;
+
+
+
+}
+.div2 > p {
+  float: right;
+  position: relative;
+  /*clear: left; */
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 2em;
+
+}
+.div3 {
+    width: 32%;
+  border: 1px solid black;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: grey;
+  position: relative;
+  height: 300px;
+  box-sizing: border-box;
+}
+.div3 > p {
+  float: right;
+  position: relative;
+  /*clear: left; */
+  bottom: 10px;
+  left: 10px;
+  width: 135px;
+  background-color: blue;
+  border: 1px solid black;
+  font-size: 2em;
+
+}
+  .main-div div{
+    /*overflow: auto; */
+    height: 350px;
+
+
+  }
+  .main-div section {
+    clear: right;
+    float: left;
+    padding: 10px;
+    text-align: left;
+
+  }
+
+
+/*********** Base Styling **********/
+
+/*********** Large Devive only************/
+
+
+@media(min-width:1201px) and (max-width: 1500px){
+
+  body {
+    width: ;
+  }
+  .main-div{
+    width: 100%;
+    background-color: blue;
+    height: 1000px;
+
+
+  }
+  .div1 {
+    width: 30%;
+    height: 250px;
+    margin: 1.666%;
+    overflow: hidden;
+
+
+  }
+  .div2 {
+    width: 30%;
+    height: 250px;
+    margin: 1.666%;
+    overflow: auto;
+
+  }
+  .div3 {
+    width: 30%;
+    height: 300%;
+    margin: 1.666%;
+    overflow: auto;
+
+
+  }
+}
+/*********** Large Device only ************/
+
+/*********** Medium Device only ***********/
+@media(min-width:901px) and (max-width:1201px) {
+
+  * {
+    box-sizing: border-box;
+  }
+  .main-div {
+    width: 100%;
+    float: left;
+    background-color: white;
+  }
+  .div1 {
+    width: 48%;
+    border: 1px solid black;
+    float: left;
+    padding: 5px;
+    margin: 1%;
+    background-color: grey;
+    position: relative;
+    height: 200px;
+    box-sizing: border-box;
+  }
+  .div1 > p {
+    float: right;
+    position: relative;
+    /*clear: left; */
+    top: -5px;
+    left: 6px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+    font-size: 2em;
+
+
+  }
+
+  .div2 {
+    width: 48%;
+    border: 1px solid black;
+    float: left;
+    padding: 5px;
+    margin: 1%;
+  /*  margin-left: 19px; */
+
+    background-color: grey;
+    position: relative;
+    height: 200px;
+    box-sizing: border-box;
+
+  }
+  .div2 > p {
+    float: right;
+    position: relative;
+    /*clear: left; */
+    top: -5px;
+    left: 6px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 2em;
+
+
+  }
+
+    .div3 {
+      width: 98%;
+      padding: 5px;
+      margin: 1%px;
+
+
+    }
+    .div3 > p {
+      float: right;
+      position: relative;
+      /*clear: left; */
+      top: -6px;
+      left: 6px;
+      width: 100px;
+      background-color: blue;
+      border: 1px solid black;
+      font-size: 2em;
+      width: 150px;
+
+
+    }
+}
+/*********** Medium Device only ***********/
+
+/******** Small Device Only ***********/
+@media(min-width: 500px) and (max-width: 900px) {
+  .main-div {
+    width: 100%;
+    background-color: red;
+  }
+    .div1, .div2 {
+      width: 100%;
+    }
+    .div3 {
+      width: 100%;
+    }
+
+}
+}
+
+/********Small Device Only ***********/
+
+/*********** Responsive Styling *******/

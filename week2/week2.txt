@@ -1,0 +1,5 @@
+ECHO is on.
+Anatomy of a CSS Rule.
+
+A css rule consist of a selector followed by a pair of curly braces which
+which contain a value or sets of values. 

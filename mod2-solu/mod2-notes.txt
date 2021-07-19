@@ -1,0 +1,42 @@
+HTML
+
+Hypertext markup language is used to aid in the publication of web pages by providing
+a structure that defines elements like tables, forms, lists and headings, and identifies where
+different portions of our content begin and end. It can be used to embed other file formats
+like videos, audio files, documents like PDFs and spreadsheets, among others. HTML is
+the most relied upon language in the creation of web sites. In this text we will focus on
+HTML5. While it is technically still in draft form, many proposed elements are already
+supported by the newer versions of most of the popular browsers.
+
+Before we can create our first web page, we need to create a file that our service will
+recognize as a web page. To do this, we can open our chosen text editor (see a short list of
+potentials in the section on Integrated Development Environments), and create a new
+document if one was not created automatically. We will immediately select “Save As” from
+your editor’s File menu, and give your new page its name. If this is going to be the front
+page, or first page you want a user to see for your site, you should name it index. Index is the
+default file name most web servers look for in any folder of your website; it saves your users
+from having to know and type the page name as part of the URL
+
+CSS
+
+CSS is a collection of styles that allows you to enhance the appearance f HTML elements on web pages.
+It can be used to define a set of formatting options that can be used to format text and other HTML elements.
+It defines a set of standard rules that provides a better control over the page layout and the appearance.
+CSS can be applied to specific HTML elements on a web page, to all the elements on the web page, or across
+all the web pages of the website.
+The selector is a good place to start with CSS. It is used to identify which item(s) the rule(s)
+following it will apply to, and is the first element of a rule definition. A selector can refer to
+an existing tag that is part of the HTML structure like unordered lists, paragraphs, inputs,
+or it can refer to a custom class, element’s name, or ID that we create.
+
+JSCRIPT
+
+JavaScript is a client-side script, meaning the browser processes the code instead of the
+web server. Client-side scripts are commonly used when we want to validate data before
+sending it to the web server, adjusting the interface in response to user feedback, and for
+implementing other advanced features. Since JavaScript is part of the browser, it can be
+run without a web server present. If the computer is slow or busy, the performance of our
+code may be reduced. If JavaScript is disabled (less of a concern today than just a few years
+ago) then our script will not run. This being said, this is less of an issue now, and JavaScript
+can reduce the number of communications to a server, reducing transmission time and
+improving performance.

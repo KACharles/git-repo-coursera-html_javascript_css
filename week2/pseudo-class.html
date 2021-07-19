@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudo Class Selectors</title>
+    <style media="screen">
+      header li {
+        text-declaration: none;
+        list-style: none;
+      }
+      a:link, a:visited {
+        text-declaration: none;
+        background-color: green;
+        border: 1px solid blue;
+        color: black;
+        display: block;
+        margin-bottom: 1px;
+        text-align: center;
+        width: 200px;
+      }
+      a:hover, a:active {
+        color: gray;
+        background-color: cyan;
+        border: 1px solid black;
+      }
+      header li:nth-child(3) {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+        opacity: .5;
+
+      }
+    section li:nth-child(odd) {
+      background-color: cyan;
+      width: 200px;
+
+
+    }
+    section li:nth-child(4):hover {
+      background-color: gray;
+      cursor: pointer;
+      width: 200px;
+
+    }
+
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo Class Selectors</h1>
+    <header>
+      <ul>
+       <li><a href="#">Menu Item#1</a></li>
+       <li><a href="#">Menu Item#2</a></li>
+       <li><a href="#">Menu Item#3</a></li>
+      </ul>
+    </header>
+<section>
+  <h2>Section Area</h2>
+  <ul>
+    <li>Div 1</li>
+    <li>Div 2</li>
+    <li>Div 3</li>
+    <li>Div 4</li>
+    <li>Div 5</li>
+    <li>Div 6</li>
+    <li>Div 7</li>
+    <li>Div 8</li>
+    <li>Div 9</li>
+    <li>Div 10</li>
+  </ul>
+</section>
+  </body>
+</html>
