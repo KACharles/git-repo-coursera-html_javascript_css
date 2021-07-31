@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+body {
+
+}
+
+#nav1 {
+  /* height: 200px; */
+  font-size: 120%;
+  background-color: #424242;
+  /* height: 150px; */
+
+}
+.navbar-header {
+  height: 150px;
+}
+
+#logo-img {
+  background: url('../images/html-css-js.jpg') no-repeat;
+  width: 150px;
+  height: 150px;
+
+  /* top: 15px; */
+
+
+}
+.navbar-brand h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 10;
+  position: relative;
+  left: 10px;
+  color: black;
+  /* margin-top: 5px; */
+
+}
+#nav-list {
+  text-align: center;
+  /* margin: 15px; */
+
+}
+#nav-list a {
+  color: black;
+}
+@media (min-width: 500px) and (max-width:768px) {
+    #nav-menu {
+      background-color: #424242;
+      margin-top: 60px;
+
+    }
+    #button {
+      position: relative;
+      top: 30px;
+      left: 10px;
+
+    }
+}
+#section1 {
+  box-sizing: border-box;
+
+  /* background-color: grey; */
+  background-color: #525252;
+  /* opacity: .5; */
+  color: black;
+  /* margin-right: 10px; */
+  /* width: 32%; */
+  /* margin-right: 5px; */
+
+}
+
+#section2 {
+  background-color: #424242;
+  color: black;
+  /* width: 32%; */
+  box-sizing: border-box;
+  /* margin-right: 5px; */
+}
+#section3 {
+  background-color: #626262;
+  /* opacity: .6; */
+  color: black;
+  /* width: 32%; */
+  box-sizing: border-box;
+  /* margin-right: 5px; */
+
+
+}
+.row div {
+  box-sizing: border-box;
+  height: 1000px;
+  float: left;
+  margin-left: auto;
+  /* margin-right:5px; */
+
+
+}
+.row h3 {
+  text-align: center;
+}
+.row section p {
+  font-size: 1.5em;
+}
+.container-fluid {
+box-sizing: border-box;
+margin: 10px;
+}
