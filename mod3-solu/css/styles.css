@@ -14,6 +14,7 @@ body {
   background-color: #424242;
   /* height: 150px; */
 
+
 }
 .navbar-header {
   height: 150px;
@@ -31,19 +32,27 @@ body {
 .navbar-brand h1 {
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 10;
+  text-shadow: 10 0 0 0;
   position: relative;
   left: 10px;
-  color: black;
+  color: white;
   /* margin-top: 5px; */
 
 }
+
 #nav-list {
   text-align: center;
   /* margin: 15px; */
 
+
+}
+#nav-menu li a:link, a:visited {
+  color: white;
 }
 #nav-list a {
+  color: white;
+}
+#nav-list a:hover {
   color: black;
 }
 @media (min-width: 500px) and (max-width:768px) {
@@ -59,42 +68,37 @@ body {
 
     }
 }
-#section1 {
-  box-sizing: border-box;
+/* #section1 {
 
   /* background-color: grey; */
-  background-color: #525252;
+  /* background-color: #525252; */
   /* opacity: .5; */
-  color: black;
+  /* color: black; */
   /* margin-right: 10px; */
   /* width: 32%; */
-  /* margin-right: 5px; */
 
 }
 
-#section2 {
-  background-color: #424242;
-  color: black;
+/* #section2 { */
+  /* background-color: #424242; */
+  /* color: black; */
   /* width: 32%; */
-  box-sizing: border-box;
-  /* margin-right: 5px; */
-}
-#section3 {
-  background-color: #626262;
+
+/* } */
+/* #section3 { */
+
+  /* background-color: #626262; */
   /* opacity: .6; */
   color: black;
   /* width: 32%; */
-  box-sizing: border-box;
-  /* margin-right: 5px; */
 
+} */
 
-}
 .row div {
   box-sizing: border-box;
-  height: 1000px;
+  height: 500px;
   float: left;
-  margin-left: auto;
-  /* margin-right:5px; */
+  /* margin-right:10px; */
 
 
 }
@@ -102,9 +106,36 @@ body {
   text-align: center;
 }
 .row section p {
-  font-size: 1.5em;
+  font-size: 105%;
 }
-.container-fluid {
-box-sizing: border-box;
-margin: 10px;
+.row div {
+
+}
+.container-fluid  {
+/* padding: 50px;
+border: 2px solid black;
+margin: 50px; */
+}
+#html, #css, #jscript {
+  width: 100%;
+  /* border: 2px solid maroon; */
+  padding: 15px;
+  font-size: 1.6em;
+  height: 1050px;
+  background-color: #424242;
+  color: white;
+  margin-bottom: 15px;
+}
+/* custom styling  */
+@media(min-width: 300px) and (max-width: 390px) {
+  .navbar-brand h1 {
+    font-size: 1.5em;
+    position: relative;
+
+  }
+  #button {
+    position: relative;
+    top: 40px;
+  }
+  /* continue later  */
 }
