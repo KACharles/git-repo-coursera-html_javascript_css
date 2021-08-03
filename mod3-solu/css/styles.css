@@ -138,4 +138,10 @@ margin: 50px; */
     top: 40px;
   }
   /* continue later  */
+  #css, #jscript {
+    height: 1500px;
+  }
+  #html {
+  height:  1200px;
+  }
 }
