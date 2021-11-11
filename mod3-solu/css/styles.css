@@ -55,6 +55,22 @@ body {
 #nav-list a:hover {
   color: black;
 }
+.panel-footer {
+  position: relative;
+  background-color: #000;
+  height: 100px;
+  color: white;
+  opacity: .8;
+}
+.panel-footer .text-center {
+  position: relative;
+vertical-align: middle;
+top: 30px;
+font-size: 1.5em;
+line-height: 30px;
+}
+
+
 @media (min-width: 500px) and (max-width:768px) {
     #nav-menu {
       background-color: #424242;

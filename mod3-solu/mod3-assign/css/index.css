@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+
+}
+body {
+
+}
+.custom-style {
+  text-align: center;
+  background-color: grey;
+  padding: 10px;
+  height: 200px;
+  border: 1px solid black;
+
+}
